@@ -60,13 +60,13 @@ const SingleProduct = (parentdata) => {
 
             <div className={style.description}>
                 <h1>PRODUCT NAME</h1>
-                <p>{singleProduct.title}</p>
+                <p> {singleProduct.title}</p>
                 <h2>DESCRIPTION..!</h2>
-                    <p>1 {singleProduct.description}</p>
+                    <p> {singleProduct.description}</p>
                     <h3>CATEGORY</h3>
-                    <p>2 {singleProduct.category}</p>
+                    <p> {singleProduct.category}</p>
                     <h4>PRICE</h4>
-                    <p>{singleProduct.price}$</p>
+                    <p> {singleProduct.price}$</p>
                     {/* <h5>RATING</h5> <p>{singleProduct.rating.rate}</p> */}
                 </div>
 
