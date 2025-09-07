@@ -50,7 +50,7 @@ h4{
     } */
     .productcontainer {
         width: 40%;
-        height: 200px;
+        min-height: 200px;
     }
 
     .productcontainer img {
