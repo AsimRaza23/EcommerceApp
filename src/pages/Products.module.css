@@ -5,8 +5,8 @@
 }
 
 .productcontainer {
-    margin: 50px auto;
-    padding: 15px;
+    margin: 30px auto;
+    padding: 0px 15px;
     border: 2px solid black;
     width: 50%;
     background-color: aqua;
@@ -50,11 +50,14 @@ h4{
     } */
     .productcontainer {
         width: 40%;
+        height: 200px;
     }
 
     .productcontainer img {
         height: 100px;
         max-width: 70px;
+        /* margin-top: 20px; */
+        /* padding-bottom: 20px; */
     }
 
     .button button {
@@ -66,6 +69,7 @@ h4{
     h4{ 
     color: black;
     font-size: 6px;
+    /* margin-top: 20px; */
 }
 }
 

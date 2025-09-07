@@ -59,7 +59,7 @@ const SingleProduct = (parentdata) => {
             </div>
 
             <div className={style.description}>
-                <h2>PRODUCT NAME</h2>
+                <h2 className={style.name}>PRODUCT NAME</h2>
                 <p> {singleProduct.title}</p>
                 <h2>DESCRIPTION..!</h2>
                     <p> {singleProduct.description}</p>
